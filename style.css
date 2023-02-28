@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+		background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+.accordion-card-main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-body {
+	display: flex;
+	width: 900px;
+	height: 600px;
+	border-radius: 20px;
+	box-shadow: 20px 18px 15px 0px rgba(89, 89, 219, 0.11);
+	background-color: white;
+	align-items: center;
+}
+.card-body-left {
+	width: 50%;
+	height: auto;
+	background-image: url(images/bg-pattern-desktop.svg);
+	background-size: cover;
+	background-position: top right;
+	padding-top: 10rem;
+}
+.big-img {
+	padding-right: 3rem;
+	transform:translateX(-5rem) ;
+}
+.small-img {
+	transform: translateX(-7rem) translateY(-15rem);
+}
+.card-body-right {
+	width: 50%;
+	height: 100%;
+	padding-top: 3rem;
+	padding-left: 2rem;
+	padding-bottom: 9rem;
+}
+.card-body-right-main {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+.card-body-right-qst {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+button {
+	margin-top: 2rem;
+	border: none;
+	background-color: white;
+	color: hsl(237, 12%, 33%);
+	font-size: 16px;
+	border-bottom: 1px solid hsl(240, 5%, 91%);
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.ans {
+	margin-top: 5px;
+}
+.arrow {
+	padding-left: 20px;
+}
+.arrow-3 {
+	padding-left: 80px;
+}
+.arrow-4 {
+	padding-left: 75px;
+}
+.arrow-5 {
+	padding-left: 40px;
+}
